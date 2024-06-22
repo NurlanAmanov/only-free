@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/bg1.jpg') center/cover;
+    background-repeat: no-repeat;
+    
+}
+
+input[ type="checkbox"]:checked~ul {
+    display: none;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+#logo {
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+#logo img {
+    height: 100%;
+    object-fit: contain;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    padding: 5px 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    text-align: right;
+    width: 45%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#hamb {
+    display: none;
+}
+
+h1 {
+    font: 1.9em Verdana, bold;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    font: 1.4em Verdana, bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.find{
+    width: 100%;
+    padding:10px 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.sourc{
+    font:1em Verdana,bold ;
+    width: 60%;
+    border-radius: 10px 10px;
+    border: none;
+    height: 50px;
+    text-align: center;
+}
+footer p{
+    font: 1.2em arial ,bold ;
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+
+}
+span i{
+    display: inline-block;
+    background: #fff;
+    color: #000000;
+    border-radius: 10px 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.8m;
+    padding: 15px;
+    margin: 0 10px;
+}
+/*------------------- desktop version------------------- */
+@media only screen and (min-width: 768px) {
+    label {
+        display: none;
+    }
+
+    #logo {
+        width: 40px;
+        float: left;
+    }
+
+    #menu {
+        margin-top: 10px;
+        vertical-align: top;
+        float: right;
+        display: inline-block;
+
+    }
+
+    #menu li {
+        display: inline-block;
+        border: none;
+        margin: 0 10px;
+    }
+    h1 {
+        font: 2.8em Verdana, bold;
+        padding-top: 150px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    p {
+        font: 2.3em Verdana, bold;
+        color: #fff;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+}
